@@ -1486,7 +1486,7 @@ input, select, textarea {
 		-ms-transition: opacity 0.25s ease-in-out;
 		transition: opacity 0.25s ease-in-out;
 		display: inline-block;
-		border: solid 6px #ebebeb !important;
+		/* border: solid 6px #ebebeb !important; */
 	}
 
 		.image:hover {
@@ -1506,7 +1506,13 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 3.5em 0;
+			margin: 0 0 0 0;
+		}
+
+		.image.portrait {
+			display: block;
+			width: 80%;
+			margin: 0 3em 3.5em 3em;
 		}
 
 		.image.left {
@@ -2093,6 +2099,15 @@ input, select, textarea {
 
 		#features ul.actions {
 			margin-top: 1.25em;
+		}
+
+		#features .big {
+			font-weight: 400;
+			font-size: 1.8em;
+			line-height: 1.5em;
+			letter-spacing: 4px;
+			text-align: center;
+			margin: 0;
 		}
 
 /* Banner */
