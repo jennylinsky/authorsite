@@ -149,12 +149,12 @@ input, select, textarea {
 		}
 
 		a:hover {
-			color: #ed786a;
+			color: #f1346b; /*#ed786a;*/
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
 			a:hover strong {
-				color: #ed786a;
+				color: #f1346b; /*#ed786a;*/
 			}
 
 	strong, b {
@@ -1775,7 +1775,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #ed786a;
+		background: #f1346b; /*#ed786a;*/
 		color: #fff !important;
 		text-transform: uppercase;
 		border-radius: 4px;
@@ -1814,7 +1814,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #ed786a;
+			background: #f1346b; /*#ed786a;*/
 		}
 
 		input[type="button"].alt,
@@ -1923,7 +1923,7 @@ input, select, textarea {
 		#header h1 {
 			font-family: 'Arvo';
 			font-weight: 700;
-			color: #ed786a;
+			color: #f1346b; /*#ed786a;*/
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 			font-size: 3em;
 			letter-spacing: 13px;
@@ -2007,13 +2007,13 @@ input, select, textarea {
 
 			#nav > ul > li.active > a:before,
 			#nav > ul > li:hover > a:before {
-				background: #ED786A;
+				background: #f1346b; /*#ed786a;*/
 				color: #fff;
 			}
 
 			#nav > ul > li.active > a > span,
 			#nav > ul > li:hover > a > span {
-				color: #ED786A;
+				color: #f1346b; /*#ed786a;*/
 			}
 
 	.dropotron {
@@ -2080,7 +2080,7 @@ input, select, textarea {
 				-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 				-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 				transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-				color: #ed786a;
+				color: #f1346b; /*#ed786a;*/
 			}
 
 /* Features */
